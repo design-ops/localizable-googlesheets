@@ -1,0 +1,15 @@
+
+/* Class = "UILabel"; text = "Number of toppings"; ObjectID = "4c0-3Y-E0E"; */
+"4c0-3Y-E0E.text" = "Number of toppings";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "5Vu-JC-Bu9"; */
+"5Vu-JC-Bu9.text" = "0";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "Jek-6R-tgG"; */
+"Jek-6R-tgG.text" = "0";
+
+/* Class = "UILabel"; text = "Number of sauces"; ObjectID = "N9D-t9-ygh"; */
+"N9D-t9-ygh.text" = "Number of sauces";
+
+/* Class = "UILabel"; text = "You have X toppings and Y sauces in your ice cream"; ObjectID = "Vid-fY-ErO"; */
+"Vid-fY-ErO.text" = "You have X toppings and Y sauces in your ice cream";

@@ -1,0 +1,16 @@
+key,en,pt
+,,
+simple.example,A test example of a localized string,Examplo duma string localizada
+,,
+,,
+dynamic.arguments.one,One argument: ${arg},Um argumento: ${arg}
+dynamic.arguments.two,Two arguments: ${arg1} and ${arg2},Dois argumentos: ${arg1} e ${arg2}
+,,
+,,
+plurals.plural,${x} in the plural,${x} no plural
+plurals.pluralAndSingular,${my_value}: ${y} in the plural and ${z},${my_value}: ${y} no plural e ${z}
+,,
+,,
+icecream.toppingsTitle,You have ${ice_cream_toppings} on your ice cream,Tens ${ice_cream_toppings} no teu gelado
+icecream.saucesTitle,You have ${ice_cream_sauces} on your ice cream,Tens ${ice_cream_sauces} no teu gelado
+icecream.saucesAndToppingsTitle,You have ${ice_cream_toppings} and ${ice_cream_sauces} on your ice cream,Tens ${ice_cream_toppings} e ${ice_cream_sauces} no teu gelado

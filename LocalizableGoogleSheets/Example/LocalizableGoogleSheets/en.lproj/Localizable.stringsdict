@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>plurals.plural</key>
+<dict>
+    <key>NSStringLocalizedFormatKey</key>
+    <string>%#@__x__@ in the plural</string>
+    <key>__x__</key>
+    <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>d</string>
+        <key>zero</key>
+        <string>zero values</string>
+        <key>one</key>
+        <string>one value</string>
+        <key>two</key>
+        <string>two values</string>
+        <key>few</key>
+        <string>few values</string>
+        <key>many</key>
+        <string>many values</string>
+        <key>other</key>
+        <string>other values</string>
+    </dict>
+</dict>
+    <key>icecream.toppingsTitle</key>
+<dict>
+    <key>NSStringLocalizedFormatKey</key>
+    <string>You have %#@__ice_cream_toppings__@ on your ice cream</string>
+    <key>__ice_cream_toppings__</key>
+    <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>d</string>
+        <key>zero</key>
+        <string>no toppings</string>
+        <key>one</key>
+        <string>one topping</string>
+        <key>two</key>
+        <string>two toppings</string>
+        <key>few</key>
+        <string>few toppings</string>
+        <key>many</key>
+        <string>many toppings</string>
+        <key>other</key>
+        <string>%d toppings</string>
+    </dict>
+</dict>
+    <key>icecream.saucesTitle</key>
+<dict>
+    <key>NSStringLocalizedFormatKey</key>
+    <string>You have %#@__ice_cream_sauces__@ on your ice cream</string>
+    <key>__ice_cream_sauces__</key>
+    <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>d</string>
+        <key>zero</key>
+        <string>no sauces</string>
+        <key>one</key>
+        <string>one sauce</string>
+        <key>two</key>
+        <string></string>
+        <key>few</key>
+        <string></string>
+        <key>many</key>
+        <string></string>
+        <key>other</key>
+        <string>%d sauces</string>
+    </dict>
+</dict>
+    <key>icecream.saucesAndToppingsTitle</key>
+<dict>
+    <key>NSStringLocalizedFormatKey</key>
+    <string>You have %#@__ice_cream_toppings__@ and %#@__ice_cream_sauces__@ on your ice cream</string>
+    <key>__ice_cream_toppings__</key>
+    <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>d</string>
+        <key>zero</key>
+        <string>no toppings</string>
+        <key>one</key>
+        <string>one topping</string>
+        <key>two</key>
+        <string>two toppings</string>
+        <key>few</key>
+        <string>few toppings</string>
+        <key>many</key>
+        <string>many toppings</string>
+        <key>other</key>
+        <string>%d toppings</string>
+    </dict><key>__ice_cream_sauces__</key>
+    <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>d</string>
+        <key>zero</key>
+        <string>no sauces</string>
+        <key>one</key>
+        <string>one sauce</string>
+        <key>two</key>
+        <string></string>
+        <key>few</key>
+        <string></string>
+        <key>many</key>
+        <string></string>
+        <key>other</key>
+        <string>%d sauces</string>
+    </dict>
+</dict>
+</dict>
+</plist>

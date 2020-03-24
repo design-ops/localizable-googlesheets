@@ -1,0 +1,7 @@
+platform :ios, '8.0'
+use_frameworks!
+
+target 'LocalizableGoogleSheets_Example' do
+  pod 'LocalizableGoogleSheets', :path => '../../', :testspecs => ['Tests']
+
+end

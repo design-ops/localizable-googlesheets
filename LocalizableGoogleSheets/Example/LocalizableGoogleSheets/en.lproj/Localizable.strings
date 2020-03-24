@@ -1,0 +1,12 @@
+/*
+//
+//  en.localizable.strings
+//  LocalizableGoogleSheets
+//
+//  THIS FILE IS GENERATED, DO NOT EDIT IT!
+//
+*/
+"simple.example" = "A test example of a localized string";
+"dynamic.arguments.one" = "One argument: __arg__";
+"dynamic.arguments.two" = "Two arguments: __arg1__ and __arg2__";
+"plurals.pluralAndSingular" = "__my_value__: __y__ in the plural and __z__";

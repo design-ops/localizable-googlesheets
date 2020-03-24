@@ -1,0 +1,9 @@
+VARIABLE,LANG,ZERO,ONE,TWO,FEW,MANY,OTHER
+${ice_cream_toppings},en,no toppings,one topping,,,,${ice_cream_toppings} toppings
+${ice_cream_sauces},en,no sauces,one sauce,,,,${ice_cream_sauces} sauces
+${ice_cream_toppings},pt,cero toppings,un topping,,,,${ice_cream_toppings} toppings
+${ice_cream_sauces},pt,cero salsas,una salsa,,,,${ice_cream_sauces} salsas
+${x},en,zero values,one value,two values,few values,many values,other values
+${x},pt,cero,uno,dos,pocos,muchos,otro
+${y},en,zero values,one value,two values,few values,many values,other values
+${y},pt,cero,uno,dos,pocos,muchos,otro

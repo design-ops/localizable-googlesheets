@@ -1,0 +1,777 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1638E865AA1EB010549B7D0F67D65A1D /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = CA030FEBE044E9A902C45960E2AF7A99 /* en.lproj */; };
+		1CDDF8C9D424CADEACA4262794D3485E /* Reflection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B28DB069163589429BA9B5914A20A8 /* Reflection.swift */; };
+		225B7DE2F4214B2158672887DECB5234 /* LocalizableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0C22330E0C932EB3AC7F1422AF7CAC /* LocalizableTests.swift */; };
+		243C146BCCE3A5B143FF249F1CE3F1F3 /* Pods-LocalizableGoogleSheets_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F33BF8981E36F11F210C65D34F744E6 /* Pods-LocalizableGoogleSheets_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A696D322EC30FF1C693F0B1C4B74B0F /* LocalizableGoogleSheets-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E6724ED91F20E09E96E31E24AE76DD34 /* LocalizableGoogleSheets-dummy.m */; };
+		40FEAC6EC679486C81791F320568A8B1 /* Pods-LocalizableGoogleSheets_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 11BAA756227FED1941C207DE6C184A29 /* Pods-LocalizableGoogleSheets_Example-dummy.m */; };
+		803BC1158887B17320F4F2A3E75F4A4C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B75FEE1B510DFDFC1762354E772FB1EE /* Foundation.framework */; };
+		9536DC15AE27AF76BAC5B9E246F6ADDD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B75FEE1B510DFDFC1762354E772FB1EE /* Foundation.framework */; };
+		A2AE9ED4B23A6EAAFF587683A4E2FCEB /* LocalizableGoogleSheets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 136523597CB3507ADB7052651D3844BA /* LocalizableGoogleSheets.framework */; };
+		A5AA772725E9B3E38B7D9523E4029485 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B75FEE1B510DFDFC1762354E772FB1EE /* Foundation.framework */; };
+		AE19BF32C0717403D63F9DF2A4ACDC81 /* Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A040AABC37A5ABA0DAAE4B556FFAB5 /* Localizable.swift */; };
+		D67937F04461B127E048C792F7F66C6C /* LocalizableGoogleSheets-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CF91051ADDAEB0B447F4539FC3AFFFD9 /* LocalizableGoogleSheets-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F014AAB70F168D212F3F0851007632B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 900FBAF40254643BC4D168EAE668D341;
+			remoteInfo = LocalizableGoogleSheets;
+		};
+		FFDA990FB38884D10CC552DFE0D9283A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 900FBAF40254643BC4D168EAE668D341;
+			remoteInfo = LocalizableGoogleSheets;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		099466009DDF506DB52F18F5163E71E1 /* LocalizableGoogleSheets.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LocalizableGoogleSheets.release.xcconfig; sourceTree = "<group>"; };
+		0AE8D940FF8FBDFE89180DA0EDFF752B /* LocalizableGoogleSheets.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LocalizableGoogleSheets.modulemap; sourceTree = "<group>"; };
+		115D4385D041F5E850DC6088E17A2E11 /* LocalizableGoogleSheets-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LocalizableGoogleSheets-Info.plist"; sourceTree = "<group>"; };
+		11BAA756227FED1941C207DE6C184A29 /* Pods-LocalizableGoogleSheets_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LocalizableGoogleSheets_Example-dummy.m"; sourceTree = "<group>"; };
+		136523597CB3507ADB7052651D3844BA /* LocalizableGoogleSheets.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LocalizableGoogleSheets.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1385B374CC9A49CFDF64EFA2D84666AC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		19ADCB46CCA3C4F3DF437BBF26308635 /* Pods-LocalizableGoogleSheets_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LocalizableGoogleSheets_Example-Info.plist"; sourceTree = "<group>"; };
+		3F50511CA0D22A1B657218A12F47E33D /* LocalizableGoogleSheets.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LocalizableGoogleSheets.framework; path = LocalizableGoogleSheets.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		48A040AABC37A5ABA0DAAE4B556FFAB5 /* Localizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Localizable.swift; path = LocalizableGoogleSheets/LocalizableGoogleSheets/Classes/Localizable.swift; sourceTree = "<group>"; };
+		49CB7FA439C1BA59CD0FEAAEF0942559 /* Pods-LocalizableGoogleSheets_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LocalizableGoogleSheets_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5027973CFC5EC3BA128A50E60048F153 /* Pods_LocalizableGoogleSheets_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LocalizableGoogleSheets_Example.framework; path = "Pods-LocalizableGoogleSheets_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		644192FDAF3763EC68FF75A8828FCAA0 /* LocalizableGoogleSheets.unit-tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "LocalizableGoogleSheets.unit-tests.debug.xcconfig"; sourceTree = "<group>"; };
+		6BB08123DC3A495223BF3981A0233F69 /* LocalizableGoogleSheets.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LocalizableGoogleSheets.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7533563632DA03E2B7104F087DB67B69 /* LocalizableGoogleSheets.unit-tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "LocalizableGoogleSheets.unit-tests.release.xcconfig"; sourceTree = "<group>"; };
+		87EF7AACD0FC49C0BE4D25F992C901E5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		8BFB0A66AFD42423CA5C5C260168FC3A /* LocalizableGoogleSheets-Unit-Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LocalizableGoogleSheets-Unit-Tests-Info.plist"; sourceTree = "<group>"; };
+		8F8DCBA25D90C882B8DBC22BD60C13C7 /* LocalizableGoogleSheets-Unit-Tests-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LocalizableGoogleSheets-Unit-Tests-prefix.pch"; sourceTree = "<group>"; };
+		914A799630AA8E0284A2475192C43975 /* LocalizableGoogleSheets-Unit-Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "LocalizableGoogleSheets-Unit-Tests-frameworks.sh"; sourceTree = "<group>"; };
+		9D3D22FDC6943390E3367D49A8F7C1A5 /* Pods-LocalizableGoogleSheets_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LocalizableGoogleSheets_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DFFBCAC2E334D13EBC4603D792443F2 /* Pods-LocalizableGoogleSheets_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LocalizableGoogleSheets_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		9F33BF8981E36F11F210C65D34F744E6 /* Pods-LocalizableGoogleSheets_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LocalizableGoogleSheets_Example-umbrella.h"; sourceTree = "<group>"; };
+		A4B28DB069163589429BA9B5914A20A8 /* Reflection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Reflection.swift; path = LocalizableGoogleSheets/LocalizableGoogleSheets/Classes/Reflection.swift; sourceTree = "<group>"; };
+		B75FEE1B510DFDFC1762354E772FB1EE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CA030FEBE044E9A902C45960E2AF7A99 /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = en.lproj; path = LocalizableGoogleSheets/LocalizableGoogleSheets/Tests/Resources/en.lproj; sourceTree = "<group>"; };
+		CF91051ADDAEB0B447F4539FC3AFFFD9 /* LocalizableGoogleSheets-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LocalizableGoogleSheets-umbrella.h"; sourceTree = "<group>"; };
+		D67A968E02DB3D418EB9FCAA59EC74B5 /* Pods-LocalizableGoogleSheets_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LocalizableGoogleSheets_Example-frameworks.sh"; sourceTree = "<group>"; };
+		E0A38D32077AFC47C5B97AA86DCFBC7D /* LocalizableGoogleSheets-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LocalizableGoogleSheets-prefix.pch"; sourceTree = "<group>"; };
+		E469A595C1A07D62C6EDA5C5D5FBDFE3 /* LocalizableGoogleSheets.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LocalizableGoogleSheets.debug.xcconfig; sourceTree = "<group>"; };
+		E6724ED91F20E09E96E31E24AE76DD34 /* LocalizableGoogleSheets-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LocalizableGoogleSheets-dummy.m"; sourceTree = "<group>"; };
+		EBEA7AE4DA92F115ED63608C2AC78CC0 /* LocalizableGoogleSheets-Unit-Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "LocalizableGoogleSheets-Unit-Tests"; path = "LocalizableGoogleSheets-Unit-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED0C22330E0C932EB3AC7F1422AF7CAC /* LocalizableTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocalizableTests.swift; path = LocalizableGoogleSheets/LocalizableGoogleSheets/Tests/LocalizableTests.swift; sourceTree = "<group>"; };
+		FD421016ECA5BA492F050714C936F385 /* Pods-LocalizableGoogleSheets_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LocalizableGoogleSheets_Example.release.xcconfig"; sourceTree = "<group>"; };
+		FFE94E31AF672520EB4665A29AF7F593 /* Pods-LocalizableGoogleSheets_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LocalizableGoogleSheets_Example.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01C2029DCC0D77B80BCFD8B381095122 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				803BC1158887B17320F4F2A3E75F4A4C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1241E86176A4D63435A4F879E0BB454B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5AA772725E9B3E38B7D9523E4029485 /* Foundation.framework in Frameworks */,
+				A2AE9ED4B23A6EAAFF587683A4E2FCEB /* LocalizableGoogleSheets.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187AC8875A0E1456EA0D4C9646993DD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9536DC15AE27AF76BAC5B9E246F6ADDD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2157AAE83E013A9BA00A166BF2CAEADE /* Pods-LocalizableGoogleSheets_Example */ = {
+			isa = PBXGroup;
+			children = (
+				FFE94E31AF672520EB4665A29AF7F593 /* Pods-LocalizableGoogleSheets_Example.modulemap */,
+				49CB7FA439C1BA59CD0FEAAEF0942559 /* Pods-LocalizableGoogleSheets_Example-acknowledgements.markdown */,
+				9D3D22FDC6943390E3367D49A8F7C1A5 /* Pods-LocalizableGoogleSheets_Example-acknowledgements.plist */,
+				11BAA756227FED1941C207DE6C184A29 /* Pods-LocalizableGoogleSheets_Example-dummy.m */,
+				D67A968E02DB3D418EB9FCAA59EC74B5 /* Pods-LocalizableGoogleSheets_Example-frameworks.sh */,
+				19ADCB46CCA3C4F3DF437BBF26308635 /* Pods-LocalizableGoogleSheets_Example-Info.plist */,
+				9F33BF8981E36F11F210C65D34F744E6 /* Pods-LocalizableGoogleSheets_Example-umbrella.h */,
+				9DFFBCAC2E334D13EBC4603D792443F2 /* Pods-LocalizableGoogleSheets_Example.debug.xcconfig */,
+				FD421016ECA5BA492F050714C936F385 /* Pods-LocalizableGoogleSheets_Example.release.xcconfig */,
+			);
+			name = "Pods-LocalizableGoogleSheets_Example";
+			path = "Target Support Files/Pods-LocalizableGoogleSheets_Example";
+			sourceTree = "<group>";
+		};
+		77B34BA3A2D42E7FB0D293042D024D18 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0AE8D940FF8FBDFE89180DA0EDFF752B /* LocalizableGoogleSheets.modulemap */,
+				E6724ED91F20E09E96E31E24AE76DD34 /* LocalizableGoogleSheets-dummy.m */,
+				115D4385D041F5E850DC6088E17A2E11 /* LocalizableGoogleSheets-Info.plist */,
+				E0A38D32077AFC47C5B97AA86DCFBC7D /* LocalizableGoogleSheets-prefix.pch */,
+				CF91051ADDAEB0B447F4539FC3AFFFD9 /* LocalizableGoogleSheets-umbrella.h */,
+				914A799630AA8E0284A2475192C43975 /* LocalizableGoogleSheets-Unit-Tests-frameworks.sh */,
+				8BFB0A66AFD42423CA5C5C260168FC3A /* LocalizableGoogleSheets-Unit-Tests-Info.plist */,
+				8F8DCBA25D90C882B8DBC22BD60C13C7 /* LocalizableGoogleSheets-Unit-Tests-prefix.pch */,
+				E469A595C1A07D62C6EDA5C5D5FBDFE3 /* LocalizableGoogleSheets.debug.xcconfig */,
+				099466009DDF506DB52F18F5163E71E1 /* LocalizableGoogleSheets.release.xcconfig */,
+				644192FDAF3763EC68FF75A8828FCAA0 /* LocalizableGoogleSheets.unit-tests.debug.xcconfig */,
+				7533563632DA03E2B7104F087DB67B69 /* LocalizableGoogleSheets.unit-tests.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "LocalizableGoogleSheets/Example/Pods/Target Support Files/LocalizableGoogleSheets";
+			sourceTree = "<group>";
+		};
+		8206391760FEBEB61FE5780EAC2E65CE /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B3340176E72A01850506139692C470C1 /* LocalizableGoogleSheets */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		938958534FA63D03CA01A05C4091D458 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				136523597CB3507ADB7052651D3844BA /* LocalizableGoogleSheets.framework */,
+				998DE8CC3391BE26122D960ACC3876D1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		998DE8CC3391BE26122D960ACC3876D1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B75FEE1B510DFDFC1762354E772FB1EE /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		A197033FAA9D57A2369CC37BD3BFAD87 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				87EF7AACD0FC49C0BE4D25F992C901E5 /* LICENSE */,
+				6BB08123DC3A495223BF3981A0233F69 /* LocalizableGoogleSheets.podspec */,
+				1385B374CC9A49CFDF64EFA2D84666AC /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		B3340176E72A01850506139692C470C1 /* LocalizableGoogleSheets */ = {
+			isa = PBXGroup;
+			children = (
+				48A040AABC37A5ABA0DAAE4B556FFAB5 /* Localizable.swift */,
+				A4B28DB069163589429BA9B5914A20A8 /* Reflection.swift */,
+				A197033FAA9D57A2369CC37BD3BFAD87 /* Pod */,
+				77B34BA3A2D42E7FB0D293042D024D18 /* Support Files */,
+				C0B04BA96641BA5D99BC96D5D6ABEE2D /* Tests */,
+			);
+			name = LocalizableGoogleSheets;
+			path = ../../..;
+			sourceTree = "<group>";
+		};
+		C0B04BA96641BA5D99BC96D5D6ABEE2D /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				ED0C22330E0C932EB3AC7F1422AF7CAC /* LocalizableTests.swift */,
+				F364DA7F4F85C5ADED62D5AC8C1F9677 /* Resources */,
+			);
+			name = Tests;
+			sourceTree = "<group>";
+		};
+		C117CF031C6481104069F769177CF006 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2157AAE83E013A9BA00A166BF2CAEADE /* Pods-LocalizableGoogleSheets_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				8206391760FEBEB61FE5780EAC2E65CE /* Development Pods */,
+				938958534FA63D03CA01A05C4091D458 /* Frameworks */,
+				DC5D4D0C51818637F6DF0AE3AFE6D82C /* Products */,
+				C117CF031C6481104069F769177CF006 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		DC5D4D0C51818637F6DF0AE3AFE6D82C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F50511CA0D22A1B657218A12F47E33D /* LocalizableGoogleSheets.framework */,
+				EBEA7AE4DA92F115ED63608C2AC78CC0 /* LocalizableGoogleSheets-Unit-Tests */,
+				5027973CFC5EC3BA128A50E60048F153 /* Pods_LocalizableGoogleSheets_Example.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F364DA7F4F85C5ADED62D5AC8C1F9677 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CA030FEBE044E9A902C45960E2AF7A99 /* en.lproj */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		73B13CAA000DDE852FEAB4BC916DEF3B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				243C146BCCE3A5B143FF249F1CE3F1F3 /* Pods-LocalizableGoogleSheets_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA416C9E5ECB8E4BA79677B0BF55D50E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D67937F04461B127E048C792F7F66C6C /* LocalizableGoogleSheets-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4C1C26CF58F5C4A2715811CB42F96F2F /* LocalizableGoogleSheets-Unit-Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FEF8955BED00FBA58759A8C0DF2F6DB /* Build configuration list for PBXNativeTarget "LocalizableGoogleSheets-Unit-Tests" */;
+			buildPhases = (
+				9E810FEC9C4A18855D4B7C2430A421F2 /* Sources */,
+				1241E86176A4D63435A4F879E0BB454B /* Frameworks */,
+				C2AA85838C7DD489B605055152DD7B8A /* Resources */,
+				E6E11D5125C24102D75B5F6FEB5D4AD8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E908EAEAA19FC7D0315F1D2DDF4CF02E /* PBXTargetDependency */,
+			);
+			name = "LocalizableGoogleSheets-Unit-Tests";
+			productName = "LocalizableGoogleSheets-Unit-Tests";
+			productReference = EBEA7AE4DA92F115ED63608C2AC78CC0 /* LocalizableGoogleSheets-Unit-Tests */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		900FBAF40254643BC4D168EAE668D341 /* LocalizableGoogleSheets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97B7C8BBF3525D2BB3B889A9886433D9 /* Build configuration list for PBXNativeTarget "LocalizableGoogleSheets" */;
+			buildPhases = (
+				BA416C9E5ECB8E4BA79677B0BF55D50E /* Headers */,
+				632B4806BF5BD98506E5651E683FC17F /* Sources */,
+				01C2029DCC0D77B80BCFD8B381095122 /* Frameworks */,
+				155F47C5961FA1722F81C27F0F007CA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LocalizableGoogleSheets;
+			productName = LocalizableGoogleSheets;
+			productReference = 3F50511CA0D22A1B657218A12F47E33D /* LocalizableGoogleSheets.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EE0A11EC0756F97307E93F31255A2B8B /* Pods-LocalizableGoogleSheets_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDCA206899F6C561A6659F2D2CA9735C /* Build configuration list for PBXNativeTarget "Pods-LocalizableGoogleSheets_Example" */;
+			buildPhases = (
+				73B13CAA000DDE852FEAB4BC916DEF3B /* Headers */,
+				B04FF3B665AF6B80470E66DC9E882125 /* Sources */,
+				187AC8875A0E1456EA0D4C9646993DD2 /* Frameworks */,
+				9A8F7C0122D1AFBDC19D21B29CFC1459 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				496942CAEFAEEF91EFF6ECE3118025F8 /* PBXTargetDependency */,
+			);
+			name = "Pods-LocalizableGoogleSheets_Example";
+			productName = "Pods-LocalizableGoogleSheets_Example";
+			productReference = 5027973CFC5EC3BA128A50E60048F153 /* Pods_LocalizableGoogleSheets_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = DC5D4D0C51818637F6DF0AE3AFE6D82C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				900FBAF40254643BC4D168EAE668D341 /* LocalizableGoogleSheets */,
+				4C1C26CF58F5C4A2715811CB42F96F2F /* LocalizableGoogleSheets-Unit-Tests */,
+				EE0A11EC0756F97307E93F31255A2B8B /* Pods-LocalizableGoogleSheets_Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		155F47C5961FA1722F81C27F0F007CA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A8F7C0122D1AFBDC19D21B29CFC1459 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2AA85838C7DD489B605055152DD7B8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1638E865AA1EB010549B7D0F67D65A1D /* en.lproj in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E6E11D5125C24102D75B5F6FEB5D4AD8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/LocalizableGoogleSheets/LocalizableGoogleSheets-Unit-Tests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/LocalizableGoogleSheets/LocalizableGoogleSheets.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LocalizableGoogleSheets.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/LocalizableGoogleSheets/LocalizableGoogleSheets-Unit-Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		632B4806BF5BD98506E5651E683FC17F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE19BF32C0717403D63F9DF2A4ACDC81 /* Localizable.swift in Sources */,
+				3A696D322EC30FF1C693F0B1C4B74B0F /* LocalizableGoogleSheets-dummy.m in Sources */,
+				1CDDF8C9D424CADEACA4262794D3485E /* Reflection.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E810FEC9C4A18855D4B7C2430A421F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				225B7DE2F4214B2158672887DECB5234 /* LocalizableTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B04FF3B665AF6B80470E66DC9E882125 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40FEAC6EC679486C81791F320568A8B1 /* Pods-LocalizableGoogleSheets_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		496942CAEFAEEF91EFF6ECE3118025F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LocalizableGoogleSheets;
+			target = 900FBAF40254643BC4D168EAE668D341 /* LocalizableGoogleSheets */;
+			targetProxy = F014AAB70F168D212F3F0851007632B7 /* PBXContainerItemProxy */;
+		};
+		E908EAEAA19FC7D0315F1D2DDF4CF02E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LocalizableGoogleSheets;
+			target = 900FBAF40254643BC4D168EAE668D341 /* LocalizableGoogleSheets */;
+			targetProxy = FFDA990FB38884D10CC552DFE0D9283A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		36B5872F5640039A298DBC54D3200647 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 099466009DDF506DB52F18F5163E71E1 /* LocalizableGoogleSheets.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LocalizableGoogleSheets/LocalizableGoogleSheets-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LocalizableGoogleSheets/LocalizableGoogleSheets-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LocalizableGoogleSheets/LocalizableGoogleSheets.modulemap";
+				PRODUCT_MODULE_NAME = LocalizableGoogleSheets;
+				PRODUCT_NAME = LocalizableGoogleSheets;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4B4B03AD555BB3F096FE185F05165A19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7533563632DA03E2B7104F087DB67B69 /* LocalizableGoogleSheets.unit-tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = YES;
+				CODE_SIGNING_REQUIRED = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/LocalizableGoogleSheets/LocalizableGoogleSheets-Unit-Tests-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LocalizableGoogleSheets/LocalizableGoogleSheets-Unit-Tests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = "LocalizableGoogleSheets-Unit-Tests";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9257309E40D07FA15421AAB2546175D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD421016ECA5BA492F050714C936F385 /* Pods-LocalizableGoogleSheets_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LocalizableGoogleSheets_Example/Pods-LocalizableGoogleSheets_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LocalizableGoogleSheets_Example/Pods-LocalizableGoogleSheets_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A518A3DC41239FDBEE712A92C0C9890E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 644192FDAF3763EC68FF75A8828FCAA0 /* LocalizableGoogleSheets.unit-tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = YES;
+				CODE_SIGNING_REQUIRED = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/LocalizableGoogleSheets/LocalizableGoogleSheets-Unit-Tests-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LocalizableGoogleSheets/LocalizableGoogleSheets-Unit-Tests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-lswiftSwiftOnoneSupport",
+				);
+				PRODUCT_NAME = "LocalizableGoogleSheets-Unit-Tests";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CCD96A52C12FB9293CCE26E8FA7BA602 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DFFBCAC2E334D13EBC4603D792443F2 /* Pods-LocalizableGoogleSheets_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LocalizableGoogleSheets_Example/Pods-LocalizableGoogleSheets_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LocalizableGoogleSheets_Example/Pods-LocalizableGoogleSheets_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DCD8775D7AC2D525CEF860739634CF3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E469A595C1A07D62C6EDA5C5D5FBDFE3 /* LocalizableGoogleSheets.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LocalizableGoogleSheets/LocalizableGoogleSheets-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LocalizableGoogleSheets/LocalizableGoogleSheets-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LocalizableGoogleSheets/LocalizableGoogleSheets.modulemap";
+				PRODUCT_MODULE_NAME = LocalizableGoogleSheets;
+				PRODUCT_NAME = LocalizableGoogleSheets;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FEF8955BED00FBA58759A8C0DF2F6DB /* Build configuration list for PBXNativeTarget "LocalizableGoogleSheets-Unit-Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A518A3DC41239FDBEE712A92C0C9890E /* Debug */,
+				4B4B03AD555BB3F096FE185F05165A19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97B7C8BBF3525D2BB3B889A9886433D9 /* Build configuration list for PBXNativeTarget "LocalizableGoogleSheets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCD8775D7AC2D525CEF860739634CF3F /* Debug */,
+				36B5872F5640039A298DBC54D3200647 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDCA206899F6C561A6659F2D2CA9735C /* Build configuration list for PBXNativeTarget "Pods-LocalizableGoogleSheets_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCD96A52C12FB9293CCE26E8FA7BA602 /* Debug */,
+				9257309E40D07FA15421AAB2546175D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

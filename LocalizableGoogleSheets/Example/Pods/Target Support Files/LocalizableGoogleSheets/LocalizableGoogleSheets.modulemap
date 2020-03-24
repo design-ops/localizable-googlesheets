@@ -1,0 +1,6 @@
+framework module LocalizableGoogleSheets {
+  umbrella header "LocalizableGoogleSheets-umbrella.h"
+
+  export *
+  module * { export * }
+}

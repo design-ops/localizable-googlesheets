@@ -1,0 +1,12 @@
+/*
+//
+//  pt.localizable.strings
+//  LocalizableGoogleSheets
+//
+//  THIS FILE IS GENERATED, DO NOT EDIT IT!
+//
+*/
+"simple.example" = "Examplo duma string localizada";
+"dynamic.arguments.one" = "Um argumento: __arg__";
+"dynamic.arguments.two" = "Dois argumentos: __arg1__ e __arg2__";
+"plurals.pluralAndSingular" = "__my_value__: __y__ no plural e __z__";

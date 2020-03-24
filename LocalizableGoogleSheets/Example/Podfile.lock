@@ -1,0 +1,18 @@
+PODS:
+  - LocalizableGoogleSheets (1.0.0)
+  - LocalizableGoogleSheets/Tests (1.0.0)
+
+DEPENDENCIES:
+  - LocalizableGoogleSheets (from `../../`)
+  - LocalizableGoogleSheets/Tests (from `../../`)
+
+EXTERNAL SOURCES:
+  LocalizableGoogleSheets:
+    :path: "../../"
+
+SPEC CHECKSUMS:
+  LocalizableGoogleSheets: db013f4e757207a880b4b33bb71ff80e73187df9
+
+PODFILE CHECKSUM: 82e47ca1a47947d018261c0a275d4b805d0d6c68
+
+COCOAPODS: 1.9.1
